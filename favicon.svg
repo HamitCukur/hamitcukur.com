@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" fill="#000"/>
-  <circle cx="52" cy="12" r="4" fill="#c20a0a"/>
-  <text x="32" y="40" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle" letter-spacing="0">MHC</text>
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M12 16V48"/>
+    <path d="M27 16V48"/>
+    <path d="M12 32H27"/>
+    <path d="M52 16H39"/>
+    <path d="M39 16V48"/>
+    <path d="M39 48H52"/>
+  </g>
 </svg>
