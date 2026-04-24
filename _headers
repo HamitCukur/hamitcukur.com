@@ -83,3 +83,15 @@
 
 /posts/*v2.html
   ! X-Robots-Tag
+
+/social-preview.jpg
+  Cache-Control: public, max-age=0, must-revalidate
+
+/favicon-hc-light.svg
+  Cache-Control: public, max-age=0, must-revalidate
+
+/icon-hc-light-192.png
+  Cache-Control: public, max-age=0, must-revalidate
+
+/icon-hc-light-512.png
+  Cache-Control: public, max-age=0, must-revalidate
