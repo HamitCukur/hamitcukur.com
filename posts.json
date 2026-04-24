@@ -1,0 +1,270 @@
+{
+  "posts": [
+    {
+      "id": "post19v2",
+      "title": "the four elements of character",
+      "date": "19-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post19",
+      "title": "avatar: lessons in character development",
+      "date": "19-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post18v2",
+      "title": "miras ve etki: geleceğin mimarları",
+      "date": "18-01-2024",
+      "language": "tr",
+      "category": "society"
+    },
+    {
+      "id": "post18",
+      "title": "birlikte daha güçlüyüz",
+      "date": "18-01-2024",
+      "language": "tr",
+      "category": "society"
+    },
+    {
+      "id": "post17v2",
+      "title": "yenilik ve ilerleme: modern türkiye'nin anahtarı",
+      "date": "17-01-2024",
+      "language": "tr",
+      "category": "society"
+    },
+    {
+      "id": "post17",
+      "title": "gençliğin gücü",
+      "date": "17-01-2024",
+      "language": "tr",
+      "category": "society"
+    },
+    {
+      "id": "post16v2",
+      "title": "uyan artık: modern gençliğin manifestosu",
+      "date": "16-01-2024",
+      "language": "tr",
+      "category": "society"
+    },
+    {
+      "id": "post16",
+      "title": "uyan türk gençliği",
+      "date": "16-01-2024",
+      "language": "tr",
+      "category": "society"
+    },
+    {
+      "id": "post15v2",
+      "title": "wit: weapon of the wise",
+      "date": "15-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post15",
+      "title": "the art of witty communication",
+      "date": "15-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post14v2",
+      "title": "vision without delusion",
+      "date": "14-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post14",
+      "title": "from vision to reality: designing your future with purpose",
+      "date": "14-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post13v2",
+      "title": "wealth: beyond money and markets",
+      "date": "13-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post13",
+      "title": "the modern man's guide to strategic investing",
+      "date": "13-01-2024",
+      "language": "en",
+      "category": "lifestyle"
+    },
+    {
+      "id": "post12v2",
+      "title": "the renaissance soul: against modern specialization",
+      "date": "12-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post12",
+      "title": "the polymath's compass: charting your path to mastery",
+      "date": "12-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post11v2",
+      "title": "metal: modern çağın isyanı",
+      "date": "11-01-2024",
+      "language": "tr",
+      "category": "music"
+    },
+    {
+      "id": "post11",
+      "title": "the mathematics of metal: engineering a perfect riff",
+      "date": "11-01-2024",
+      "language": "en",
+      "category": "music"
+    },
+    {
+      "id": "post10v2",
+      "title": "modern savaşçı: iç savaşın galibi",
+      "date": "10-01-2024",
+      "language": "tr",
+      "category": "philosophy"
+    },
+    {
+      "id": "post10",
+      "title": "modern çağın savaşçıları",
+      "date": "10-01-2024",
+      "language": "tr",
+      "category": "philosophy"
+    },
+    {
+      "id": "post9v2",
+      "title": "modern relationships: authenticity over validation",
+      "date": "09-01-2024",
+      "language": "en",
+      "category": "lifestyle"
+    },
+    {
+      "id": "post9",
+      "title": "debugging relationships: an engineer's guide",
+      "date": "09-01-2024",
+      "language": "en",
+      "category": "lifestyle"
+    },
+    {
+      "id": "post8v2",
+      "title": "modern fitness: güç mü, görüntü mü?",
+      "date": "08-01-2024",
+      "language": "tr",
+      "category": "fitness"
+    },
+    {
+      "id": "post8",
+      "title": "modern fitness kültürünün sahtelikleri",
+      "date": "08-01-2024",
+      "language": "tr",
+      "category": "fitness"
+    },
+    {
+      "id": "post7v2",
+      "title": "digital addiction: the modern weakness",
+      "date": "07-01-2024",
+      "language": "en",
+      "category": "technology"
+    },
+    {
+      "id": "post7",
+      "title": "why your smartphone is making you weak",
+      "date": "07-01-2024",
+      "language": "en",
+      "category": "technology"
+    },
+    {
+      "id": "post6v2",
+      "title": "disiplin: modern dünyanın unuttuğu değer",
+      "date": "06-01-2024",
+      "language": "tr",
+      "category": "philosophy"
+    },
+    {
+      "id": "post6",
+      "title": "disiplin: başarının şifresi",
+      "date": "06-01-2024",
+      "language": "tr",
+      "category": "philosophy"
+    },
+    {
+      "id": "post5v2",
+      "title": "mental toughness: not another self-help guide",
+      "date": "05-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post5",
+      "title": "the art of mental toughness",
+      "date": "05-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post4v2",
+      "title": "liderlik: modern çağın gerekliliği",
+      "date": "04-01-2024",
+      "language": "tr",
+      "category": "leadership"
+    },
+    {
+      "id": "post4",
+      "title": "mühendislik ve liderlik",
+      "date": "04-01-2024",
+      "language": "tr",
+      "category": "leadership"
+    },
+    {
+      "id": "post3v2",
+      "title": "forging the body, tempering the mind",
+      "date": "03-01-2024",
+      "language": "en",
+      "category": "fitness"
+    },
+    {
+      "id": "post3",
+      "title": "optimizing the human machine",
+      "date": "03-01-2024",
+      "language": "en",
+      "category": "fitness"
+    },
+    {
+      "id": "post2v2",
+      "title": "the art of mastery: lessons from music",
+      "date": "02-01-2024",
+      "language": "en",
+      "category": "music"
+    },
+    {
+      "id": "post2",
+      "title": "the engineering of guitar solos",
+      "date": "02-01-2024",
+      "language": "en",
+      "category": "music"
+    },
+    {
+      "id": "post1v2",
+      "title": "meditations for the modern soul",
+      "date": "01-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    },
+    {
+      "id": "post1",
+      "title": "why engineers should read marcus aurelius",
+      "date": "01-01-2024",
+      "language": "en",
+      "category": "philosophy"
+    }
+  ]
+} 
