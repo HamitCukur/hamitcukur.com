@@ -1,6 +1,6 @@
 async function loadPosts() {
   try {
-    const response = await fetch('posts.json');
+    const response = await fetch('/posts.json');
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -42,7 +42,7 @@ async function loadPosts() {
 
       container.innerHTML = postsToRender.map(post => `
         <li>
-          <a href="posts/${post.id}.html">${post.title}</a>
+          <a href="/posts/${post.id}">${post.title}</a>
           <span class="date">${post.date}</span>
         </li>
       `).join('');

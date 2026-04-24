@@ -11,6 +11,28 @@
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
 
+/about
+  Cache-Control: public, max-age=0, must-revalidate
+
+/notes
+  Cache-Control: public, max-age=0, must-revalidate
+
+/work
+  Cache-Control: public, max-age=0, must-revalidate
+
+/toru
+  Cache-Control: public, max-age=0, must-revalidate
+
+/contact
+  Cache-Control: public, max-age=0, must-revalidate
+
+/posts/*
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Robots-Tag: noindex
+
+/posts/*v2
+  ! X-Robots-Tag
+
 /*.css
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
