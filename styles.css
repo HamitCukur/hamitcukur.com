@@ -732,6 +732,15 @@ footer {
   border: none;
 }
 
+.spotify-embed {
+  margin-top: 1.25rem;
+}
+
+.spotify-embed iframe {
+  display: block;
+  border: 0;
+}
+
 @media screen and (max-width: 768px) {
   .video-section {
     gap: 3rem;
