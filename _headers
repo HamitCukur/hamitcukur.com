@@ -54,6 +54,9 @@
 /site.webmanifest
   Cache-Control: public, max-age=0, must-revalidate
 
+/og-image.jpg
+  Cache-Control: public, max-age=0, must-revalidate
+
 /*.css
   Cache-Control: public, max-age=0, must-revalidate
 
