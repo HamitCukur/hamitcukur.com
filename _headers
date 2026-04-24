@@ -95,3 +95,12 @@
 
 /icon-hc-light-512.png
   Cache-Control: public, max-age=0, must-revalidate
+
+/favicon-hc-large.svg
+  Cache-Control: public, max-age=0, must-revalidate
+
+/icon-hc-large-192.png
+  Cache-Control: public, max-age=0, must-revalidate
+
+/icon-hc-large-512.png
+  Cache-Control: public, max-age=0, must-revalidate
