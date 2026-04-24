@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbarHtml = `
     <nav>
         <div class="nav-container">
-            <a href="${linkPath}index.html" class="mobile-logo">mhc</a>
+            <a href="${linkPath}index.html" class="mobile-logo">MHC</a>
             <div class="mobile-nav-button">
                 <span></span>
                 <span></span>

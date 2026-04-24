@@ -129,8 +129,8 @@ nav {
 }
 
 .navbar img {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   vertical-align: middle;
   opacity: 0.8;
   transition: opacity 0.3s ease;
@@ -657,8 +657,8 @@ footer {
 }
 
 .mobile-social-links img {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   opacity: 0.8;
   transition: opacity 0.3s ease;
 }
@@ -745,11 +745,12 @@ footer {
   top: 46%;
   transform: translateY(-50%);
   left: 20px;
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 750;
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  letter-spacing: -0.5px;
+  letter-spacing: 0;
+  text-transform: uppercase;
   z-index: 1001;
   transition: color 0.3s ease;
   line-height: 1;
