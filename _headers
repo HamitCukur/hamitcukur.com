@@ -33,6 +33,27 @@
 /posts/*v2
   ! X-Robots-Tag
 
+/favicon.svg
+  Cache-Control: public, max-age=0, must-revalidate
+
+/favicon-hc.svg
+  Cache-Control: public, max-age=0, must-revalidate
+
+/icon-192.png
+  Cache-Control: public, max-age=0, must-revalidate
+
+/icon-512.png
+  Cache-Control: public, max-age=0, must-revalidate
+
+/icon-hc-192.png
+  Cache-Control: public, max-age=0, must-revalidate
+
+/icon-hc-512.png
+  Cache-Control: public, max-age=0, must-revalidate
+
+/site.webmanifest
+  Cache-Control: public, max-age=0, must-revalidate
+
 /*.css
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
