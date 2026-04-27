@@ -191,3 +191,38 @@ window.addEventListener('scroll', function() {
 document.addEventListener('DOMContentLoaded', function() {
   handleCookieConsent();
 });
+
+function buildYouTubeEmbedUrl(videoId) {
+  if (!/^[A-Za-z0-9_-]{11}$/.test(videoId)) {
+    return '';
+  }
+
+  return `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&playsinline=1`;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const latestYouTubeFrame = document.querySelector('[data-latest-youtube]');
+  if (!latestYouTubeFrame) return;
+
+  fetch('/api/latest-youtube', {
+    headers: {
+      'Accept': 'application/json',
+    },
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('latest youtube request failed');
+      }
+      return response.json();
+    })
+    .then(video => {
+      const embedUrl = video.embedUrl || buildYouTubeEmbedUrl(video.videoId);
+      if (!embedUrl) return;
+
+      latestYouTubeFrame.src = embedUrl;
+      if (video.title) {
+        latestYouTubeFrame.title = `${video.title} | youtube`;
+      }
+    })
+    .catch(() => {});
+});
