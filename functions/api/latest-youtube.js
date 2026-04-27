@@ -89,7 +89,7 @@ function jsonResponse(payload, status = 200) {
 
 export async function onRequestGet({ request }) {
   const url = new URL(request.url);
-  const regularOnly = url.searchParams.get('regularOnly') === '1';
+  const includeShorts = url.searchParams.get('includeShorts') === '1' || url.searchParams.get('regularOnly') === '0';
   const skipEmbedCheck = url.searchParams.get('skipEmbedCheck') === '1';
   const feedUrl = `https://www.youtube.com/feeds/videos.xml?playlist_id=${UPLOADS_PLAYLIST_ID}`;
 
@@ -107,9 +107,9 @@ export async function onRequestGet({ request }) {
 
     const xml = await response.text();
     const entries = parseUploadsFeed(xml);
-    const candidates = regularOnly
-      ? entries.filter((entry) => !entry.isShort)
-      : entries;
+    const candidates = includeShorts
+      ? entries
+      : entries.filter((entry) => !entry.isShort);
     const selected = skipEmbedCheck
       ? candidates[0]
       : await selectLatestEmbeddable(candidates);
@@ -123,7 +123,7 @@ export async function onRequestGet({ request }) {
       embedUrl: embedUrl(selected.videoId),
       source: skipEmbedCheck
         ? 'latest-upload'
-        : (regularOnly ? 'latest-embeddable-video' : 'latest-embeddable-upload'),
+        : (includeShorts ? 'latest-embeddable-upload' : 'latest-embeddable-video'),
     });
   } catch (error) {
     return jsonResponse({

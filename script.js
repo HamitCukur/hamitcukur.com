@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const latestYouTubeFrame = document.querySelector('[data-latest-youtube]');
   if (!latestYouTubeFrame) return;
 
-  fetch('/api/latest-youtube', {
+  fetch('/api/latest-youtube?regularOnly=1', {
     headers: {
       'Accept': 'application/json',
     },
